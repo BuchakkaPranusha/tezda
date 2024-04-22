@@ -1,0 +1,34 @@
+name: tezda_task
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies: 
+  fluttertoast: ^8.0.8
+  get_storage: ^2.0.3
+  http: ^0.13.4
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  url_launcher: ^6.1.2
+  flutter_snake_navigationbar: ^0.6.1
+  internet_connection_checker: ^1.0.0+1
+  lottie: ^2.2.0
+  cached_network_image: ^3.2.1
+
+
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+      - assets/images/
+      - assets/navbar_icons/
